@@ -5,7 +5,8 @@ A simple calendar app for planning your day
 
 ## Description
 ```
-This simple calender allows the user to plan their day. This planner will dynamically update throughout the day so the user can plan accordingly to how much time is left in the work day.
+This simple calender allows the user to plan their day. 
+This planner will dynamically update throughout the day. 
 ```
 
 ## User Story
@@ -30,14 +31,14 @@ This simple calender allows the user to plan their day. This planner will dynami
 - THEN the text for that event is saved in local storage
 - WHEN I refresh the page
 - THEN the saved events persist
-```
+``` 
 
 ## Usage
 ```
 - Planner will display times between 9am-5pm
 - The top of the page will display the current date and time for planning
 - Each time block will be properly color coded for quick visual indication of availability
-- Each line will contact a text box for user input as well as a save button to locally store the days plans.
+- Each line will contact a text box for user input as well as a save button to locally store plans.
 ```
 ## Images
 ![](a)

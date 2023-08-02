@@ -4,12 +4,13 @@
     --white: #ffffff;
     --lightblue: #ADD8E6;
     --lighterblue: #A7C7E7;
-    --red: #E32227;
+    --red: #ff6961;
     --black: #000;
     --lightgrey: #8A8A8A;
     --grey: #454545;
     --bluegrey: #7393B3;
     --green: #77dd77;
+    --yellow: #FDFD96;
 }
 
 /*SGeneric font settings for the general body section*/
@@ -56,6 +57,9 @@ textarea {
     height: 80px;
     border-top: 1px solid var(--white);
 }
+#d3d3d3
+#ff6961
+#77dd77
 
 /*Color presets for time block*/
 .hour {
@@ -66,7 +70,7 @@ textarea {
 
 /*Color preset for past events*/
 .past {
-    background-color: var(--white);
+    background-color: var(--lightgrey);
 
 }
 

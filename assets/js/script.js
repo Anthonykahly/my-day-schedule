@@ -30,13 +30,13 @@ function timeColors() {
     $(".row").each(function () {
         var currentTime = parseInt($(this).attr("id"));
         if (currentTime === time) {
-            $(this).addClass("present"); //Present times will show as RED to indicate that this is the CURRENT block of timing
+            $(this).addClass("present"); //Present times will show as YELLOW to indicate that this is the CURRENT block of timing
         }
         if (currentTime > time) {
             $(this).addClass("future") //Future times will show as GREEN to indicate available time blocks for planning
         }
         if (currentTime < time) {
-            $(this).addClass("past"); //Past times will show as WHITE to indicate that the time for scheduling has past
+            $(this).addClass("past"); //Past times will show as RED to indicate that the time for scheduling has past
         }
     })
 } timeColors()
