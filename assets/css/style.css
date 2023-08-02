@@ -1,0 +1,86 @@
+/*Defining colors as variables for future use*/
+:root {
+    --blue: #1e90ff;
+    --white: #ffffff;
+    --lightblue: #ADD8E6;
+    --lighterblue: #A7C7E7;
+    --red: #E32227;
+    --black: #000;
+    --lightgrey: #8A8A8A;
+    --grey: #454545;
+    --bluegrey: #7393B3;
+    --green: #77dd77;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1;
+}
+
+textarea {
+    background: transparent;
+    border: none;
+    resize: none;
+    color: var(--black);
+    border-left: 2px solid var(--black);
+    padding: 5px;
+}
+
+.jumbotron {
+    text-align: center;
+    background-color: transparent;
+    color: var(--black);
+    border-radius: 0;
+    border-bottom: 10px solid var(--black);
+}
+
+.description {
+    white-space: pre-wrap;
+}
+
+.time-block {
+    text-align: center;
+    border-radius: 15px;
+    display: flex;
+}
+
+.row {
+    white-space: pre-wrap;
+    height: 80px;
+    border-top: 1px solid var(--white);
+}
+
+.hour {
+    background-color: var(--white);
+    color: var(--black);
+    border-top: 1px dashed var(--black);
+}
+
+.past {
+    background-color: var(--white);
+
+}
+
+.present {
+    background-color: var(--red);
+    opacity: 1;
+}
+
+.future {
+    background-color: var(--green);
+    opacity: 1;
+    /*border: 1px solid black;*/ 
+}
+
+.saveBtn {
+    border-left: 1px solid black;
+    background-color: var(--lightblue);
+    color: var(--white);
+}
+
+.saveBtn:hover {
+    font-size: 20px;
+    background-color: var(--blue);
+    transition: all 0.3s ease-in-out;
+}
