@@ -12,12 +12,14 @@
     --green: #77dd77;
 }
 
+/*SGeneric font settings for the general body section*/
 body {
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
     line-height: 1;
 }
 
+/*Settings for the enterable text area for user input*/
 textarea {
     background: transparent;
     border: none;
@@ -27,6 +29,7 @@ textarea {
     padding: 5px;
 }
 
+/*Bootstrap header for large text*/
 .jumbotron {
     text-align: center;
     background-color: transparent;
@@ -35,50 +38,59 @@ textarea {
     border-bottom: 10px solid var(--black);
 }
 
+/*Dictates that the description under the JUMBOTRON will be prewrapped*/
 .description {
     white-space: pre-wrap;
 }
 
+/*Color presets for time*/
 .time-block {
     text-align: center;
     border-radius: 15px;
     display: flex;
 }
 
+/*Color presets for simple row*/
 .row {
     white-space: pre-wrap;
     height: 80px;
     border-top: 1px solid var(--white);
 }
 
+/*Color presets for time block*/
 .hour {
     background-color: var(--white);
     color: var(--black);
     border-top: 1px dashed var(--black);
 }
 
+/*Color preset for past events*/
 .past {
     background-color: var(--white);
 
 }
 
+/*Color preset for present time*/
 .present {
     background-color: var(--red);
     opacity: 1;
 }
 
+/*Color preset for future events*/
 .future {
     background-color: var(--green);
     opacity: 1;
     /*border: 1px solid black;*/ 
 }
 
+/*Save button*/
 .saveBtn {
-    border-left: 1px solid black;
+    border: 1px solid black;
     background-color: var(--lightblue);
     color: var(--white);
 }
 
+/*Save button on hover effects*/
 .saveBtn:hover {
     font-size: 20px;
     background-color: var(--blue);
