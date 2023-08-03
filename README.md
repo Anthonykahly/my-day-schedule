@@ -1,15 +1,21 @@
 # Work Day Planner
+
 A simple calendar app for planning your day
 
 ### URL : 
 
+Github: https://github.com/Anthonykahly/workday-planner
+Pages: https://anthonykahly.github.io/workday-planner/ 
+
 ## Description
+
 ```
 This simple calender allows the user to plan their day. 
 This planner will dynamically update throughout the day. 
 ```
 
 ## User Story
+
 ```
 - AS AN employee with a busy schedule
 - I WANT to add important events to a daily planner
@@ -17,6 +23,7 @@ This planner will dynamically update throughout the day.
 ```
 
 ## Acceptance Criteria
+
 ```
 - GIVEN I am using a daily planner to create a schedule
 - WHEN I open the planner
@@ -34,6 +41,7 @@ This planner will dynamically update throughout the day.
 ``` 
 
 ## Usage
+
 ```
 - Planner will display times between 9am-5pm
 - The top of the page will display the current date and time for planning
@@ -41,5 +49,6 @@ This planner will dynamically update throughout the day.
 - Each line will contact a text box for user input as well as a save button to locally store plans.
 ```
 ## Images
-![](a)
+
+![white background with the current date displayed, bars run down the page with times of the work day.](./assets/images/homepage.JPG) 
 
